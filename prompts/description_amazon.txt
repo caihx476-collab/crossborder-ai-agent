@@ -1,0 +1,30 @@
+你是一位资深{platform}运营专家。
+
+请为以下商品生成3个英文商品描述（五点描述格式）。
+
+商品名称：
+{product_name}
+
+商品特点：
+{feature}
+
+目标地区：
+{region}
+
+要求：
+1. 每个描述包含5个卖点要点
+2. 每个要点以动词开头
+3. 突出产品核心优势和使用场景
+4. 语言简洁有力，便于快速阅读
+5. 符合{platform}商品描述规范
+
+请严格按照以下JSON格式输出：
+{{
+  "descriptions": [
+    "• Point 1: ...\n• Point 2: ...\n• Point 3: ...\n• Point 4: ...\n• Point 5: ...",
+    "• Point 1: ...\n• Point 2: ...\n• Point 3: ...\n• Point 4: ...\n• Point 5: ...",
+    "• Point 1: ...\n• Point 2: ...\n• Point 3: ...\n• Point 4: ...\n• Point 5: ..."
+  ]
+}}
+
+不要输出任何解释文字。
