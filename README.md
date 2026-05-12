@@ -120,7 +120,7 @@ docker run -p 8000:8000 -p 8501:8501 --env-file .env crossborder-ai
 pytest tests/ -v
 ```
 
-## 📌 面试重点
+## 📌 重点
 
 1. **策略模式**: `ai_provider.py` 中 `AIProvider` 抽象基类 + 3个实现 + 工厂函数
 2. **前后端分离**: FastAPI提供RESTful API，Streamlit作为纯前端消费API
